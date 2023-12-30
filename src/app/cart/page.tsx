@@ -13,7 +13,7 @@ const content = () => {
       <div className='bg-red-500 wi'>
         <h1>Hello</h1>
    <ul>
-     {productsmgt.product.map(x => (
+     {productsmgt.product.map((x:any) => (
       <div key={x.id}>
         <li>{x.name}</li>
         <li>{x.price}</li>

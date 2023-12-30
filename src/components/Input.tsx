@@ -4,7 +4,7 @@ import React from 'react';
 import Button from './Button';
 import { arrowRight } from '@/assets/icons';
 
-const Input = ({query, setQuery}) => {
+const Input = ({setQuery}:any) => {
   return (
     <div>
       <div className='w-full
